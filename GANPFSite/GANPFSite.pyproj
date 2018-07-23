@@ -56,6 +56,15 @@
     <Folder Include="GANPFSite\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\static\app\content\business-casual.css" />
+    <Content Include="app\templates\app\aboutBS.cshtml" />
+    <Content Include="app\templates\app\blogBS.cshtml" />
+    <Content Include="app\templates\app\contactBS.cshtml" />
+    <Content Include="app\templates\app\errorBS.cshtml" />
+    <Content Include="app\templates\app\IndexBS.cshtml" />
+    <Content Include="app\templates\app\layoutBS.cshtml" />
+    <Content Include="app\templates\app\products.cshtml" />
+    <Content Include="app\templates\app\resources.cshtml" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

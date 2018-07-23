@@ -1,6 +1,10 @@
-﻿@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
+﻿{% extends "app/layoutBS.cshtml" %}
+
+{% block nav_about %}
+    style="background-color: #e6e8ed;"
+{% endblock %}
+
+{% block content %}
 
 <div class="container">
     <div class="row">
@@ -57,3 +61,5 @@
         </div>
     </div>
 </div>
+
+{% endblock %}

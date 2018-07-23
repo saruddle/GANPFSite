@@ -19,12 +19,48 @@ def home(request):
         }
     )
 
+def blog(request):
+    """Renders the home page."""
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/blogBS.cshtml',
+        {
+            'title':'Blog',
+            'year':datetime.now().year,
+        }
+    )
+
+def resources(request):
+    """Renders the home page."""
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/resources.cshtml',
+        {
+            'title':'Resources',
+            'year':datetime.now().year,
+        }
+    )
+
+def products(request):
+    """Renders the home page."""
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/products.cshtml',
+        {
+            'title':'Products',
+            'year':datetime.now().year,
+        }
+    )
+
 def contact(request):
     """Renders the contact page."""
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'app/contact.html',
+        'app/contactBS.cshtml',
         {
             'title':'Contact',
             'message':'Your contact page.',
@@ -37,7 +73,7 @@ def about(request):
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'app/about.html',
+        'app/aboutBS.cshtml',
         {
             'title':'About',
             'message':'Your application description page.',

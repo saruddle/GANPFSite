@@ -1,6 +1,7 @@
-﻿@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
+﻿{% extends "app/layoutBS.cshtml" %}
+
+{% block content %}
+
 <div class="container">
     <div class="row">
         <div class="box">
@@ -57,3 +58,5 @@
         </div>
     </div>
 </div>
+
+{% endblock %}
