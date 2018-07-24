@@ -6,6 +6,7 @@ from django.shortcuts import render
 from django.http import HttpRequest
 from django.template import RequestContext
 from datetime import datetime
+from app.forms import ContactForm
 
 def home(request):
     """Renders the home page."""
@@ -56,6 +57,7 @@ def products(request):
     )
 
 def contact(request):
+    form_class = ContactForm
     """Renders the contact page."""
     assert isinstance(request, HttpRequest)
     return render(
@@ -65,6 +67,7 @@ def contact(request):
             'title':'Contact',
             'message':'Your contact page.',
             'year':datetime.now().year,
+            'form': form_class,
         }
     )
 
