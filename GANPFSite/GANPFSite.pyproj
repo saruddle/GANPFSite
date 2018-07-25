@@ -60,6 +60,7 @@
     <Content Include="app\templates\app\aboutBS.cshtml" />
     <Content Include="app\templates\app\blogBS.cshtml" />
     <Content Include="app\templates\app\contactBS.cshtml" />
+    <Content Include="app\templates\app\contact_template.txt" />
     <Content Include="app\templates\app\errorBS.cshtml" />
     <Content Include="app\templates\app\IndexBS.cshtml" />
     <Content Include="app\templates\app\layoutBS.cshtml" />
