@@ -26,7 +26,7 @@ SECRET_KEY = '104eb0eb-170a-45e1-acd6-dd58b9757f2e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ganpfsite.herokuapp.com']
 
 
 # Application definition
