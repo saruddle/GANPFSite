@@ -37,7 +37,7 @@
     <Compile Include="app\views.py" />
     <Compile Include="app\__init__.py" />
     <Compile Include="app\migrations\__init__.py" />
-    <Compile Include="GANPFSite\Procfile.py">
+    <Compile Include="GANPFSite\Procfile">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="manage.py" />
