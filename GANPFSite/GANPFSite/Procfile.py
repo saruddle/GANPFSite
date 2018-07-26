@@ -1,1 +1,1 @@
-web: gunicorn ganpfsite.wsgi --log-file -
+web: gunicorn GANPFSite.wsgi --log-file -
