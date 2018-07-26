@@ -37,9 +37,6 @@
     <Compile Include="app\views.py" />
     <Compile Include="app\__init__.py" />
     <Compile Include="app\migrations\__init__.py" />
-    <Compile Include="GANPFSite\Procfile">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="manage.py" />
     <Compile Include="GANPFSite\__init__.py" />
     <Compile Include="GANPFSite\settings.py" />
@@ -70,6 +67,7 @@
     <Content Include="app\templates\app\products.cshtml" />
     <Content Include="app\templates\app\resources.cshtml" />
     <Content Include="GANPFSite\runtime.txt" />
+    <Content Include="Procfile" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
