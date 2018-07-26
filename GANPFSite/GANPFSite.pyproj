@@ -66,8 +66,8 @@
     <Content Include="app\templates\app\layoutBS.cshtml" />
     <Content Include="app\templates\app\products.cshtml" />
     <Content Include="app\templates\app\resources.cshtml" />
+    <Content Include="GANPFSite\Procfile" />
     <Content Include="GANPFSite\runtime.txt" />
-    <Content Include="Procfile" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
