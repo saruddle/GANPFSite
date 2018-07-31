@@ -54,8 +54,10 @@
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="GANPFSite\" />
+    <Folder Include=".ebextensions\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".ebextensions\django.config" />
     <Content Include="app\static\app\content\business-casual.css" />
     <Content Include="app\templates\app\aboutBS.cshtml" />
     <Content Include="app\templates\app\blogBS.cshtml" />
